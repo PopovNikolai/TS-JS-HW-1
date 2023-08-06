@@ -1,7 +1,7 @@
-const currentUserName = prompt("Enter your name");
-const currentUserAge = prompt("Enter your age");
-if (+currentUserAge > 17) {
-    alert("Welcome " + currentUserName + "!");
-} else {
-    alert("Access is restricted");
-}
+alert("Do you want to enter a title for a block?");
+const commandForCurrentUser = prompt("Enter the title for a block");
+const secondCommandForCurrentUser = prompt("Enter unit's title");
+const dataFromCurrentUser = commandForCurrentUser + secondCommandForCurrentUser;
+if (dataFromCurrentUser) {
+    alert(`${commandForCurrentUser}, ${secondCommandForCurrentUser}`);
+} 
