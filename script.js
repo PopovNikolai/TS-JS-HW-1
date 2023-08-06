@@ -1,8 +1,7 @@
-const numberOne = prompt ("Enter the first number");
-const numberTwo = prompt ("Enter the second number");
-const sumOfNumbers = +numberOne + +numberTwo;
-if (numberOne, numberTwo) {
-    alert (sumOfNumbers);
+const currentUserName = prompt("Enter your name");
+const currentUserAge = prompt("Enter your age");
+if (+currentUserAge > 17) {
+    alert("Welcome " + currentUserName + "!");
 } else {
-    alert ("You didn't enter the numbers");
+    alert("Access is restricted");
 }
